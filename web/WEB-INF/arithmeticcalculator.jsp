@@ -21,7 +21,7 @@
             <input type="submit" name="operation" value="+">
             <input type="submit" name="operation" value="-">
             <input type="submit" name="operation" value="*">
-            <input type="submit" name="operation" value="%">
+            <input type="submit" name="operation" value="% ">
         </form>
             <p>Result ${message}</p>
             <a href="http://localhost:8084/Calculators/age">Arithmetic Calculator</a>
