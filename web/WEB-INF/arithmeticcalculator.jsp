@@ -9,21 +9,21 @@
     </head>
     <body>
                 <h1>Arithmetic Calculator</h1>
-        <form method="post" action="age">
+        <form method="post" action="arithmetic">
             <label>Enter first Number:</label>
-            <input type="int" name="first_no" value="${firstNo}">
+            <input type="int" name="first_no" value="${first_Num}">
             
             <br>
             <label>Enter Second Number:</label>
-            <input type="int" name="second_no" value="${secondNo}">
+            <input type="int" name="second_no" value="${second_Num}">
             
             <br>
-            <input type="submit" name="operation" value="+">
-            <input type="submit" name="operation" value="-">
-            <input type="submit" name="operation" value="*">
-            <input type="submit" name="operation" value="% ">
+            <input type="submit" value="+" name='operation' >
+            <input type="submit" value="-" name='operation' >
+            <input type="submit" value="*" name='operation' >
+            <input type="submit" value="%" name='operation' >
         </form>
-            <p>Result ${message}</p>
-            <a href="http://localhost:8084/Calculators/age">Arithmetic Calculator</a>
+            <p>Result: ${message}</p>
+            <a href="http://localhost:8084/Calculators/age">Age Calculator</a>
     </body>
 </html>
